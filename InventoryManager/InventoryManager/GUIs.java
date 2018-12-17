@@ -62,7 +62,6 @@ public class GUIs {
 		currentInventory.remove(player.getUniqueId());
 	}
 
-	//Sounds are the exact ones from Mineplex. They have to be xD
 	public static void playClickSound(Player player, ClickResponse click) {
 		switch (click) {
 		case ACCEPT:
@@ -81,7 +80,6 @@ public class GUIs {
 			return;
 		}
 	}
-	//Mineplex End
 
 	public static void setOpeneing(Player p, boolean open) {
 		if (open) {
